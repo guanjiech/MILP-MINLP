@@ -1,4 +1,5 @@
-# MILP-MINLP混合整数规划问题
+# MILP-MINLP
+
 I am working on a highly complicated MINLP problem recently in a paper about mobile blockchain, which is my first paper here in ZJU. So I want to record some of my beneficial thoughts here. Besides, I will put all relevant materials used or which I think are precious in this repository.
 
 For now, there mainly remains two kinds of algorithms to solve MINLP. One is ***deterministic optimization algorithm*** while another kind is ***evolution algorithm*** which is problem independent, such as GA, SA, PSO and so on. 
