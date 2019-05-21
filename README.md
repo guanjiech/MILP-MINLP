@@ -4,7 +4,7 @@ I am working on a highly complicated MINLP problem recently in a paper about mob
 
 Firstly, I think it's worth noting the difference between **MILP** and **ILP**. In MILP problems, there are not only continuous variables but also integer variables, while the decision variables are all integer in ILP problems. 
 
-For now, there mainly remains two kinds of algorithms to solve MINLP problems. One is ***deterministic optimization algorithm*** while another kind is ***evolution algorithm*** which is problem-independent, such as GA, SA, PSO and so on. 
+For now, there mainly remain two kinds of algorithms to solve MINLP problems. One is ***deterministic optimization algorithm*** while another kind is ***evolution algorithm*** which is problem-independent, such as GA, SA, PSO and so on. 
 
 What's [mathmatic optimization](https://zhuanlan.zhihu.com/p/25579864)? This link is a detailed discussion on operational research(运筹学).
 
@@ -13,9 +13,9 @@ There is a [comparison](http://baijiahao.baidu.com/s?id=1600164518587031730&wfr=
 The deterministic optimization algorithm to solve the problem of MINLP mainly includes **single-tree class** and **multi-tree class**. Single-tree class has a **Nonlinear Branch and Bound** method and **Nonlinear Branch and cut** method. Multi-tree class is mainly based on **outer approximation method** and **benders decomposition method**.
 
 #### Branch and Bound algorithms: 
-1. [principles and examples](https://imada.sdu.dk/~jbj/DM85/TSPtext.pdf)
-2. [a latest work](http://web.tecnico.ulisboa.pt/mcasquilho/compute/_linpro/TaylorB_module_c.pdf)
-3. [a easy-understanding slide from MIT](https://ocw.mit.edu/courses/sloan-school-of-management/15-053-optimization-methods-in-management-science-spring-2013/tutorials/MIT15_053S13_tut10.pdf)
+1. [a classic on B&B principles and examples](https://imada.sdu.dk/~jbj/DM85/TSPtext.pdf)
+2. [a simple example](http://web.tecnico.ulisboa.pt/mcasquilho/compute/_linpro/TaylorB_module_c.pdf)
+3. [easy-understanding slides from MIT](https://ocw.mit.edu/courses/sloan-school-of-management/15-053-optimization-methods-in-management-science-spring-2013/tutorials/MIT15_053S13_tut10.pdf)
 4. [youtube video: What's branch and bound method?](https://www.youtube.com/watch?v=WNRRmXZkRi0)
 5. [youtube video: How to solve a ILP problem using branch and bound](https://www.youtube.com/watch?v=upcsrgqdeNQ)
 
