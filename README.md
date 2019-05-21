@@ -3,7 +3,8 @@ I am working on a highly complicated MINLP problem recently in a paper about mob
 
 For now, there mainly remains two kinds of algorithms to solve MINLP. One is ***deterministic optimization algorithm*** while another kind is ***evolution algorithm*** which is problem independent, such as GA, SA, PSO and so on. 
 
-The deterministic optimization algorithm to solve the problem of MINLP mainly includes **single-tree class** and **multi-tree class**. Singlg-tree class has a **Nonlinear Branch and Bound**method and **Nonlinear Branch and cut**method. Multi-tree class is mainly based on **outer approximation method** and **benders decomposition method**.
+The deterministic optimization algorithm to solve the problem of MINLP mainly includes **single-tree class** and **multi-tree class**. Singlg-tree class has a **Nonlinear Branch and Bound** method and **Nonlinear Branch and cut** method. Multi-tree class is mainly based on **outer approximation method** and **benders decomposition method**.
 
 ---
-NLP（Non-linear programming）和ILP（Integer linear programming)问题都有成熟的求解算法。如果想补一补基础可以学习Stephen P. Boyd的[convex optimization](http://web.stanford.edu/class/ee364a/)，有详细的slides，电子书，以及视频教程。
+1. There are mature algorithms for NLP(Non-linear programming) and ILP(Integer linear programming) problems. If you want to catch up on the basics, you can go to [convex optimization](http://web.stanford.edu/class/ee364a/) from [Stephen P. Boyd](https://web.stanford.edu/~boyd/). There are superdetailed slides and videos here, which is quite beneficial.
+2. other materials are included in this reository 
