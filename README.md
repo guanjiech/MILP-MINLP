@@ -4,6 +4,8 @@ I am working on a highly complicated MINLP problem recently in a paper about mob
 
 For now, there mainly remains two kinds of algorithms to solve MINLP. One is ***deterministic optimization algorithm*** while another kind is ***evolution algorithm*** which is problem independent, such as GA, SA, PSO and so on. 
 
+What's [mathmatic optimization](https://zhuanlan.zhihu.com/p/25579864)?
+
 There is a [comparison](http://baijiahao.baidu.com/s?id=1600164518587031730&wfr=spider&for=pc) on performances between these two kinds of algorithms. 
 
 The deterministic optimization algorithm to solve the problem of MINLP mainly includes **single-tree class** and **multi-tree class**. Singlg-tree class has a **Nonlinear Branch and Bound** method and **Nonlinear Branch and cut** method. Multi-tree class is mainly based on **outer approximation method** and **benders decomposition method**.
