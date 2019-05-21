@@ -2,7 +2,9 @@
 
 I am working on a highly complicated MINLP problem recently in a paper about mobile blockchain, which is my first paper here in ZJU. So I want to record some of my beneficial thoughts here. Besides, I will put all relevant materials used or which I think are precious in this repository.
 
-For now, there mainly remains two kinds of algorithms to solve MINLP. One is ***deterministic optimization algorithm*** while another kind is ***evolution algorithm*** which is problem independent, such as GA, SA, PSO and so on. 
+Firstly, I think it's worth noting the difference between **MILP** and **ILP**. In MILP problems, there are not only continuous variables but also integer variables, while the decision variables are all integer in ILP problems. 
+
+For now, there mainly remains two kinds of algorithms to solve MINLP problems. One is ***deterministic optimization algorithm*** while another kind is ***evolution algorithm*** which is problem-independent, such as GA, SA, PSO and so on. 
 
 What's [mathmatic optimization](https://zhuanlan.zhihu.com/p/25579864)? This link is a detailed discussion on operational research(运筹学).
 
@@ -20,7 +22,7 @@ The deterministic optimization algorithm to solve the problem of MINLP mainly in
 ---
 While learning Integer Programming problems, we always encounter **LP Relaxation** somewhere. So what's LP Relaxation?
 
-LP Relaxation is a model created by dropping integer(or binary) constraints of a ILP model. We relax a constraint means we ignore that constraint. 
+LP Relaxation is a model created by **dropping** integer(or binary) constraints of a ILP model. We relax a constraint means we ignore that constraint. 
 
 Here is a four-minute video on this issue:[LP Relaxation](https://www.youtube.com/watch?v=P_-0YyQUgAs) 
 
