@@ -14,8 +14,8 @@ The deterministic optimization algorithm to solve the problem of MINLP mainly in
 
 ---
 #### Branch and Bound algorithms: 
-1. [a classic on B&B principles and examples](https://imada.sdu.dk/~jbj/DM85/TSPtext.pdf)
-2. [a simple example](http://web.tecnico.ulisboa.pt/mcasquilho/compute/_linpro/TaylorB_module_c.pdf)  
+1. [a classic on B&B principles and examples(high citation)](https://imada.sdu.dk/~jbj/DM85/TSPtext.pdf)
+2. [a simple example with several practices appended last](http://web.tecnico.ulisboa.pt/mcasquilho/compute/_linpro/TaylorB_module_c.pdf)  
 - Notes: 
   * relax the integer constraint to a LP model and then get the optimal relaxed solution, the **Z** value for the relaxed solution is the upper bound while the **Z** value for the rounded-down solution is the lower bound. The optimal integer solution will be between these two bounds. 
   * observe the relaxed solution value for each variable and choose the variable with the greatest fractional part for branching
