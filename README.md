@@ -14,7 +14,14 @@ The deterministic optimization algorithm to solve the problem of MINLP mainly in
 
 #### Branch and Bound algorithms: 
 1. [a classic on B&B principles and examples](https://imada.sdu.dk/~jbj/DM85/TSPtext.pdf)
-2. [a simple example](http://web.tecnico.ulisboa.pt/mcasquilho/compute/_linpro/TaylorB_module_c.pdf)
+2. [a simple example](http://web.tecnico.ulisboa.pt/mcasquilho/compute/_linpro/TaylorB_module_c.pdf)  
+- Notes: 
+  * relax the integer constraint to a LP model and then get the optimal relaxed solution, the **Z** value for the relaxed solution is the upper bound while the **Z** value for the rounded-down solution is the lower bound. The optimal integer solution will be between these two bounds. 
+  * observe the relaxed solution value for each variable and choose the variable with the greatest fractional part for branching
+  * add new constraint to the initial model, calculate the optimal solution for this model with integer restrictions relaxed and then get the upper bound, the existing maximum integer solution(at any node) is the lower bound
+  * Next, always branch from the node with the maximum upper bound
+  * repeat the steps, the optimal integer solution is reached when a feasible integer solution is generated at a node and the upper bound of that node is greater than or equal to any other ending nodes(i.e., a node at the end of a branch)
+  * *For a minimization model, relaxed solutions are rounded-up, and upper and lower bounds are reversed.*
 3. [easy-understanding slides from MIT](https://ocw.mit.edu/courses/sloan-school-of-management/15-053-optimization-methods-in-management-science-spring-2013/tutorials/MIT15_053S13_tut10.pdf)
 4. [youtube video: What's branch and bound method?](https://www.youtube.com/watch?v=WNRRmXZkRi0)
 5. [youtube video: How to solve a ILP problem using branch and bound](https://www.youtube.com/watch?v=upcsrgqdeNQ)
