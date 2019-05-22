@@ -37,4 +37,4 @@ Here is a four-minute video on this issue:[LP Relaxation](https://www.youtube.co
 
 ---
 1. There already remain some mature algorithms for solving **NLP(Non-linear programming)** and **ILP(Integer linear programming)** problems. If you want to catch up on the basics, you can go to [convex optimization](http://web.stanford.edu/class/ee364a/) from [Stephen P. Boyd](https://web.stanford.edu/~boyd/). There are superdetailed slides and videos here, which is quite beneficial.
-2. other materials are directly included in this reository 
+2. Some programming solver: [Optimization Solver](https://www.zhihu.com/question/20908503)
