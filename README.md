@@ -10,8 +10,7 @@ What's [mathmatic optimization](https://zhuanlan.zhihu.com/p/25579864)? This lin
 
 There is a [comparison](http://baijiahao.baidu.com/s?id=1600164518587031730&wfr=spider&for=pc) on performances between these two kinds of algorithms. 
 
-The deterministic optimization algorithm to solve the problem of MINLP mainly includes **single-tree class** and **multi-tree class**. Single-tree class has a **Nonlinear Branch and Bound** method and **Nonlinear Branch and cut** method. Multi-tree class is mainly based on **outer approximation method** and **benders decomposition method**.
-Here is a [Introduction to Mixed Integer Nonlinear Programming.pdf](www.gdr-mascotnum.fr/media/mencarelli_slides.pdf) with aogorithms and softwares and other correlated problems about MINLP in it.
+The deterministic optimization algorithm to solve the problem of MINLP mainly includes **single-tree class** and **multi-tree class**. Single-tree class has a **Nonlinear Branch and Bound** method and **Nonlinear Branch and cut** method. Multi-tree class is mainly based on **outer approximation method** and **benders decomposition method**. Here is an [Introduction to Mixed Integer Nonlinear Programming](www.gdr-mascotnum.fr/media/mencarelli_slides.pdf) with aogorithms and softwares and other correlated problems about MINLP in it.
 
 ---
 #### Branch and Bound algorithms: 
