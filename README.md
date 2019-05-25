@@ -28,6 +28,11 @@ The deterministic optimization algorithm to solve the problem of MINLP mainly in
 5. [youtube video: How to solve a ILP problem using branch and bound](https://www.youtube.com/watch?v=upcsrgqdeNQ)
 
 ---
+#### Big-M method:
+1. [The Big-M method](http://businessmanagementcourses.org/Lesson09TheBigMMethod.pdf)
+2. [another discussion](http://hutchies.iconbar.com/bigm.html)
+3. [A simple instance](https://web.archive.org/web/20091122222848/http://www.computing.dcu.ie/~lkillen/teach/CA427Simplexbigmexample.pdf)
+---
 While learning Integer Programming problems, we always encounter **LP Relaxation** somewhere. So what's LP Relaxation?
 
 LP Relaxation is a model created by **dropping** integer(or binary) constraints of a ILP model. We relax a constraint means we ignore that constraint. 
