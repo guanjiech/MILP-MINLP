@@ -29,6 +29,7 @@ The deterministic optimization algorithm to solve the problem of MINLP mainly in
 
 ---
 #### Big-M method:
+0. [What are Big M constraints](http://www.thequestforoptimality.com/bigm-dual/)
 1. [The Big-M method](http://businessmanagementcourses.org/Lesson09TheBigMMethod.pdf)
 2. [another discussion](http://hutchies.iconbar.com/bigm.html)
 3. [A simple instance](https://web.archive.org/web/20091122222848/http://www.computing.dcu.ie/~lkillen/teach/CA427Simplexbigmexample.pdf)
