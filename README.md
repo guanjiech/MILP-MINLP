@@ -30,8 +30,9 @@ The deterministic optimization algorithm to solve the problem of MINLP mainly in
 
 #### Branch and Cut:
 1. [Introduction](https://en.wikipedia.org/wiki/Branch_and_cut)
-2. [Slides from The University of Jordan](http://sites.ju.edu.jo/sites/Alzalg/Documents/973/BCpres.pdf)
+2. [A publisher paper on Branch and Cut](http://eaton.math.rpi.edu/faculty/Mitchell/papers/bc_hao.pdf) ***(RECOMMEND)***
 3. [Slides from University of Wisconsin-Madison](https://www.ima.umn.edu/materials/2015-2016/ND8.1-12.16/25397/Luedtke-mip-bnc-forms.pdf)
+4. [Solving the ILP using branch-and-cut](http://www.mi.fu-berlin.de/wiki/pub/Main/GunnarKlauP1winter0708/discMath_klau_ILP_I.pdf)
 ---
 #### Big-M method:
 0. [What are Big M constraints](http://www.thequestforoptimality.com/bigm-dual/)
