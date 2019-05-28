@@ -26,7 +26,12 @@ The deterministic optimization algorithm to solve the problem of MINLP mainly in
 3. [easy-understanding slides from MIT](https://ocw.mit.edu/courses/sloan-school-of-management/15-053-optimization-methods-in-management-science-spring-2013/tutorials/MIT15_053S13_tut10.pdf)
 4. [youtube video: What's branch and bound method?](https://www.youtube.com/watch?v=WNRRmXZkRi0)
 5. [youtube video: How to solve a ILP problem using branch and bound](https://www.youtube.com/watch?v=upcsrgqdeNQ)
+---
 
+#### Branch and Cut:
+1. [Introduction](https://en.wikipedia.org/wiki/Branch_and_cut)
+2. [Slides from The University of Jordan](http://sites.ju.edu.jo/sites/Alzalg/Documents/973/BCpres.pdf)
+3. [Slides from University of Wisconsin-Madison](https://www.ima.umn.edu/materials/2015-2016/ND8.1-12.16/25397/Luedtke-mip-bnc-forms.pdf)
 ---
 #### Big-M method:
 0. [What are Big M constraints](http://www.thequestforoptimality.com/bigm-dual/)
