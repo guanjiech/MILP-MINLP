@@ -15,7 +15,7 @@ The deterministic optimization algorithm to solve the problem of MINLP mainly in
 ---
 #### Branch and Bound algorithms: 
 1. [a classic on B&B principles and examples(high citation)](https://imada.sdu.dk/~jbj/DM85/TSPtext.pdf)
-2. [a simple example with several practices appended last](http://web.tecnico.ulisboa.pt/mcasquilho/compute/_linpro/TaylorB_module_c.pdf)  
+2. **recommend**[a simple example with several practices appended last] (http://web.tecnico.ulisboa.pt/mcasquilho/compute/_linpro/TaylorB_module_c.pdf)  
 - Notes: 
   * relax the integer constraint to a LP model and then get the optimal relaxed solution, the **Z** value for the relaxed solution is the upper bound while the **Z** value for the rounded-down solution is the lower bound. The optimal integer solution will be between these two bounds. 
   * observe the relaxed solution value for each variable and choose the variable with the greatest fractional part for branching
@@ -47,5 +47,10 @@ Here is a four-minute video on this issue:[LP Relaxation](https://www.youtube.co
 
 
 ---
+#### Other materials:
 1. There already remain some mature algorithms for solving **NLP(Non-linear programming)** and **ILP(Integer linear programming)** problems. If you want to catch up on the basics, you can go to [convex optimization](http://web.stanford.edu/class/ee364a/) from [Stephen P. Boyd](https://web.stanford.edu/~boyd/). There are superdetailed slides and videos here, which is quite beneficial.
 2. Here are various kinds of **programming solvers(优化求解器)**: [Optimization Solver](https://www.zhihu.com/question/20908503)
+3. **recommend**[Nonlinear Programming Solution](http://web.tecnico.ulisboa.pt/mcasquilho/compute/_linpro/TaylorB_module_d.pdf)
+4. **recommend**[GameTheory](http://web.tecnico.ulisboa.pt/mcasquilho/compute/_linpro/TaylorB_module_e.pdf)
+5. **recommend**[Markov](http://web.tecnico.ulisboa.pt/mcasquilho/compute/_linpro/TaylorB_module_f.pdf)
+6. **recommend**[Transportation and Assignment Solution Methods](http://web.tecnico.ulisboa.pt/mcasquilho/compute/_linpro/TaylorB_module_b.pdf)
